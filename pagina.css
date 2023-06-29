@@ -1,0 +1,24 @@
+.titulo__pagina{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.subtitulo__pagina{
+    padding-top: 85px;
+    font-size: 20px;
+    padding-left: 130px;
+}
+
+.texto__pagina{
+    width:430px;
+    font-size: 14px;
+    padding-left: 130px;
+}
+
+.preview{
+    width:560px;
+    position:absolute;
+    color: white;
+    padding-left:730px;
+}

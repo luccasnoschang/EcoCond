@@ -1,0 +1,154 @@
+/* *{
+    border:1px solid red
+} */
+
+
+.posicao__img{
+    position: absolute;   
+    opacity: 20%;
+    padding-left:300px;
+    object-fit: cover;
+}
+
+.img__cabecalho{
+    position: absolute;
+    width: 1000px;
+    height: 500px; 
+    object-position: 0px -220px;
+    object-fit: cover;
+}
+
+.cabecalho {
+    background: linear-gradient(#82ac7c, #294925);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    height: 500px;
+    border-radius: 0px 0px 0px 80px;
+}
+
+.logo{
+    padding-top: 15px;
+    width: 70px;
+    padding-right: 20px;
+}
+
+.menu__lista{
+    display: flex;
+    padding-top: 25px;
+}
+
+.login__direita{
+    list-style: none;
+}
+
+.cadastrar__direita{
+    list-style: none;
+    padding-left: 650px;
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__link {
+    color:#ffffff;
+    margin-right:1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.menu__link.ativo{
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__link:hover{
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+.container{
+    position:absolute;
+    width: 1030px;
+    color: white;
+    padding-top:120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posicao__botoes{
+    height:290px;
+    position:absolute;
+    width: 1030px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.titulo__cabecalho{
+    /* position: relative; */
+    top:130px;
+    left:270px;
+    width:630px;
+    font-size:40px;
+}
+
+.subtitulo__cabecalho{
+    color: white;
+    /* position: relative; */
+    width:590px;
+    text-align: center;
+    font-size:15px;
+    opacity: 95%;
+}
+
+.botao__experimente{
+    /* position: relative; */
+    text-align: center;
+    background-color: white;    
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right:15px;
+    border: solid 0px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right:1.25rem;
+}
+
+.botao__experimente:hover{
+    font-weight: 400;
+    letter-spacing: .0892857143em;
+    text-indent: .0892857143em;
+    transition-duration: .28s;
+}
+
+.botao__saibamais{
+    /* position: relative; */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: none;
+    border: solid 1px;
+    color:white;
+    top:150px;
+    left:470px;
+    border-radius: 30px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    cursor: pointer;   
+}
+
+.botao__saibamais:hover{
+    font-weight: 400;
+    letter-spacing: .0892857143em;
+    text-indent: .0892857143em;
+    transition-duration: .28s;
+}

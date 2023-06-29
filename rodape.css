@@ -1,0 +1,9 @@
+footer {
+	text-align: center;
+    color: azure;
+	background: rgb(31, 33, 42);
+    height: 250px;
+    border-radius: 0px 100px 0px 0px;
+	padding: 40px 0;
+}
+
