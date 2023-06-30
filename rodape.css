@@ -7,3 +7,15 @@ footer {
 	padding: 40px 0;
 }
 
+.logo__rodape{
+    width: 100px;
+    position: absolute;
+    z-index: 99999;
+    left: 40px;
+}
+
+.copyright{
+    position: relative;
+    top: 200px;
+    font-size: 12px;
+}

@@ -1,3 +1,8 @@
+*{
+    border:1px solid red
+}
+
+
 .titulo__pagina{
     padding-top: 80px;
     text-align: center;
@@ -11,14 +16,46 @@
 }
 
 .texto__pagina{
-    width:430px;
+    width:410px;
     font-size: 14px;
     padding-left: 130px;
 }
 
 .preview{
-    width:560px;
+    width:620px;
     position:absolute;
     color: white;
-    padding-left:730px;
+    padding-left:700px;
+}
+
+.sobreNos {
+    height:400px;
+    background:linear-gradient(rgb(85, 85, 105), rgb(52, 66, 116));
+    border-radius:0px 80px 0px 80px;
+}
+
+.circles{
+    position: absolute;
+    width:950px;
+    height: 400px; 
+    object-position: -220px -420px;
+    object-fit: cover;
+    
+}
+
+.celulares{
+    position: absolute;
+    z-index: 99999;
+    top: 1265px;
+    left: 80px;
+}
+
+.texto__sobrenos{
+    color: white;
+    text-align: center;
+    font-size:33px;
+    position: absolute;
+    z-index: 99999;
+    top:1500px;
+    left: 860px;
 }

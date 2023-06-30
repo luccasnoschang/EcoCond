@@ -4,7 +4,7 @@
 
 
 .posicao__img{
-    position: absolute;   
+    position:absolute;   
     opacity: 20%;
     padding-left:300px;
     object-fit: cover;
@@ -14,7 +14,8 @@
     position: absolute;
     width: 1000px;
     height: 500px; 
-    object-position: 0px -220px;
+    object-position: 100px -220px;
+    padding-left: 50px;
     object-fit: cover;
 }
 
@@ -131,6 +132,12 @@
     transition-duration: .28s;
 }
 
+.botao__experimente:active{
+    background-color: rgba(0, 0, 0, 0.0);
+    border: solid 1px;
+    color:white;
+}
+
 .botao__saibamais{
     /* position: relative; */
     text-align: center;
@@ -151,4 +158,10 @@
     letter-spacing: .0892857143em;
     text-indent: .0892857143em;
     transition-duration: .28s;
+}
+
+.botao__saibamais:active{
+    background-color: white;
+    border: solid 0px;
+    color:black
 }
