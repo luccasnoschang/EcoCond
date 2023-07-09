@@ -1,21 +1,70 @@
-footer {
-	text-align: center;
-    color: azure;
-	background: rgb(31, 33, 42);
-    height: 250px;
+/* Rodapé */
+
+footer{
+    background: rgb(31, 33, 42);
     border-radius: 0px 100px 0px 0px;
-	padding: 40px 0;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width:100%;
+    height: 40%;
 }
 
-.logo__rodape{
-    width: 100px;
-    position: absolute;
-    z-index: 99999;
-    left: 40px;
+#rodape-esquerda{
+    width:10%;
+    height: 100%;
 }
 
-.copyright{
-    position: relative;
-    top: 200px;
-    font-size: 12px;
+#rodape-meio-esquerda{
+    width:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
 }
+
+#logo-rodape{
+    width:150px;
+    height:135px;
+}
+
+#rodape-meio-meio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    width:35%;
+}
+
+.titulo-rodape{
+    width:300px;
+}
+
+a{
+    width: 300px;
+}
+
+#rodape-meio-direita{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width:35%;
+}
+
+#rodape-direita{
+    width:10%;
+    height: 100%;
+}
+
+#copyright{
+    font-size: 14px;
+    height: 20px;
+    width: 200px;
+}
+
