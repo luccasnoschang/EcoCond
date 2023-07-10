@@ -1,7 +1,7 @@
 /* Rodapé */
 
 footer{
-    background: rgb(31, 33, 42);
+    background: rgb(31, 42, 38);
     border-radius: 0px 100px 0px 0px;
     color: white;
     display: flex;
@@ -12,7 +12,7 @@ footer{
 }
 
 #rodape-esquerda{
-    width:10%;
+    width:15%;
     height: 100%;
 }
 
@@ -41,10 +41,15 @@ footer{
 
 .titulo-rodape{
     width:300px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-a{
+.rodape{
     width: 300px;
+    color: rgb(203, 201, 201);
+    text-decoration: none;
+    
 }
 
 #rodape-meio-direita{
@@ -58,7 +63,7 @@ a{
 }
 
 #rodape-direita{
-    width:10%;
+    width:20%;
     height: 100%;
 }
 
@@ -66,5 +71,30 @@ a{
     font-size: 14px;
     height: 20px;
     width: 200px;
+}
+
+#redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70px;
+    gap:20px;
+}
+
+#linkedin{
+    height: 20px;
+}
+
+#instagram{
+    height: 20px;
+}
+
+#facebook{
+    height: 25px;
+}
+
+#github{
+    height: 20px;
 }
 

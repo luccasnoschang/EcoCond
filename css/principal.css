@@ -18,12 +18,11 @@ section{
 }
 
 .titulo-pagina{
-    width: 22%;
     font-size: 38px;
 }
 
 #divisao-esquerda{
-    width: 10%;
+    width: 15%;
     height:70%;
 }
 
@@ -38,6 +37,10 @@ section{
 .subtitulo-pagina{
     width: 500px;
     font-size: 28px;
+}
+
+strong{
+    color: #40916c;
 }
 
 .texto-pagina{
@@ -57,8 +60,8 @@ section{
     width: 900px;
     height: 800px;
     object-fit: cover;
-    object-position:220px 0px;
-    transform: translate(0, -15%);
+    object-position:100px 0px;
+    transform: translate(0, -10%);
 }
 
 aside{
@@ -78,7 +81,7 @@ aside{
 
 #titulo-sobrenos{
     height: 45px;
-    font-size: 45px;
+    font-size: 40px;
     color: white;
 }
 
@@ -92,9 +95,17 @@ aside{
     width: 50%;
 }
 
+#circle{
+    width: 700px;
+    object-fit: cover;
+    transform: translate(-140px, -0%);
+}
+
 #mobile{
+    position: absolute;
     width: 600px;
     height: 650px;
+    transform: translate(0px, 8%);
 }
 
 #complementar-direita{

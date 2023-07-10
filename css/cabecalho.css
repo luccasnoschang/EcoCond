@@ -8,6 +8,7 @@ html{
 
 body{
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -157,13 +158,14 @@ header{
 }
 
 #titulo-cabecalho{
-    font-size:40px;
+    font-size:50px;
+    font-weight: 200;
 }
 
 #paragrafo-cabecalho{
-    width:590px;
+    width:700px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #botoes{
@@ -181,9 +183,9 @@ header{
     text-align: center;
     background-color: white;    
     border-radius: 40px;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right:15px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right:20px;
     border: solid 0px;
     font-weight: 600;
     cursor: pointer;
@@ -209,7 +211,7 @@ header{
     border: solid 1px;
     color:white;
     border-radius: 30px;
-    padding: 10px 15px 10px 15px;
+    padding: 14px 20px 14px 20px;
     font-weight: 600;
     cursor: pointer;   
 }
