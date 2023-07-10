@@ -30,14 +30,14 @@ header{
     height: 20%;
 }
 
-/* #fundo-cabecalho{
+#fundo-cabecalho{
     width: 900px;
     height:900px;
     opacity: 20%;
     object-fit: cover;
     object-position:0px 200px;
     transform: translate(60%, -100%);
-} */
+}
 
 #selecao-esquerda{
     height: 100%;
@@ -117,7 +117,7 @@ header{
 
 #menu-login{
     text-decoration: none;
-    color: #40916c;
+    color: #272827;
     font-weight:600;
 }
 
@@ -155,10 +155,6 @@ header{
     gap:20px;
 }
 
-/* b{
-
-} */
-
 #titulo-cabecalho{
     font-size:50px;
     font-weight: 200;
@@ -185,7 +181,7 @@ header{
     text-align: center;
     background-color: white;    
     border-radius: 40px;
-    padding: 15px;
+    padding: 12.5px;
     padding-left: 20px;
     padding-right:20px;
     border: solid 0px;
@@ -204,7 +200,7 @@ header{
     background-color: rgba(0, 0, 0, 0.0);
     border: solid 1px;
     color:white;
-    padding: 14px 20px 14px 20px;
+    padding: 12px 20px 12px 20px;
 }
 
 #botao-saibamais{
@@ -214,7 +210,7 @@ header{
     border: solid 1px;
     color:white;
     border-radius: 30px;
-    padding: 14px 20px 14px 20px;
+    padding: 12px 23px 12px 23px;
     font-weight: 600;
     cursor: pointer;   
 }
@@ -229,7 +225,7 @@ header{
     background-color: white;
     border: solid 0px;
     color: #294925;
-    padding: 15px;
+    padding: 13px;
     padding-left: 20px;
     padding-right:20px;
 }
