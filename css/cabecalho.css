@@ -31,15 +31,12 @@ header{
 }
 
 /* #fundo-cabecalho{
-    width: 70%;
-    height:82%;
-    position: absolute;
-    opacity: 30%;
-    right: 0;
-    top: 35%;
+    width: 900px;
+    height:900px;
+    opacity: 20%;
     object-fit: cover;
-    object-position:0% 40%;
-    transform: translate(0, -50%);
+    object-position:0px 200px;
+    transform: translate(60%, -100%);
 } */
 
 #selecao-esquerda{
@@ -116,17 +113,13 @@ header{
     padding: 10px 20px 10px 20px;
     border: solid 0px;
     font-weight: 500;
-    z-index: 99999;
-    top: 30px;
-    left: 1210px;
 }
 
 #menu-login{
     text-decoration: none;
-    color: #294925;
+    color: #40916c;
     font-weight:600;
 }
-
 
 #login-direita:hover{
     letter-spacing: 1.5px;
@@ -134,8 +127,13 @@ header{
     cursor: pointer;
 }
 
+#login-direita:visited{
+    color:white;
+}
+
 #login-direita:active{
     font-weight: 400;
+    
     color:white;
     background-color: rgba(0, 0, 0, 0.0);
     border: solid 1px;
@@ -156,6 +154,10 @@ header{
     height: 80%;
     gap:20px;
 }
+
+/* b{
+
+} */
 
 #titulo-cabecalho{
     font-size:50px;
@@ -202,6 +204,7 @@ header{
     background-color: rgba(0, 0, 0, 0.0);
     border: solid 1px;
     color:white;
+    padding: 14px 20px 14px 20px;
 }
 
 #botao-saibamais{
@@ -226,4 +229,7 @@ header{
     background-color: white;
     border: solid 0px;
     color: #294925;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right:20px;
 }

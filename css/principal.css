@@ -57,11 +57,11 @@ strong{
 }
 
 .preview-desktop{
-    width: 900px;
-    height: 800px;
+    width: 800px;
+    height: 700px;
     object-fit: cover;
-    object-position:100px 0px;
-    transform: translate(0, -10%);
+    object-position:150px 0px;
+    transform: translate(0, -15%);
 }
 
 aside{
@@ -114,11 +114,11 @@ aside{
     justify-content: center;
     align-items:center;
     width: 50%;
-    gap:40px;
+    gap:50px;
 }
 
 #subtitulo-complementar{
-    width:700px;
+    width:570px;
     font-size: 18px;
 }
 
