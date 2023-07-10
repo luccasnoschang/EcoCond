@@ -17,10 +17,10 @@ body{
 }
 
 header{
-    background: linear-gradient(#82ac7c, #294925);
+    background:linear-gradient(#40916c, #1b4332);
     border-radius: 0px 0px 0px 80px;
     width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
 #selecao-cabecalho{
