@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.produtos {
+	width: 1250px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+    height: 600px;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-radius: 20px 20px 20px 20px;
+	background: #ffffff;
+    box-shadow: 3px 3px 25px #908f8f;
+}
+
+.produtos h2 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.img-web{
+    width: 180px;
+}
+
+.img-mobile{
+    width: 100px;
+}
+
+.img-webMobile{
+    width: 225px;
+}
+
+.produto-descricao {
+	font-size: 18px;
+    width: 320px;
+}
+
+.alinhamento-botao{
+    height:540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.produto-comprar {
+	font-size: 17px;
+    padding:7px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 60px;
+    border:0px solid;
+    background:linear-gradient(#40916c,#2d6a4f);
+    color:white;
+}
+
+.produto-comprar:hover{
+    letter-spacing: 1px;
+    transition-duration: .28s;
+    border:0px solid;
+}
+
