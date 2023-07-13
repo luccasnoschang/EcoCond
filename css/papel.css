@@ -1,0 +1,49 @@
+/* *{
+    border: 1px solid red;
+} */
+
+#container{
+    display: flex; 
+}
+
+#papel{
+    background-color: #b2dee7;
+}
+
+#txtesquerda{
+    width: 50%;
+}
+
+.tituloPapel {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.imgPapel {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img2Papel {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#paragrafoPapel1 {
+    margin-top: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#paragrafoPapel2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
