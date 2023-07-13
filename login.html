@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://kit.fontawesome.com/b20298a8d7.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="Logo.png">
+
+</head>
+
+<body>
+
+    <div id="voltar">
+        <button id="botão-voltar"><a href="index.html"> <-- Voltar</a></button>
+    </div>
+
+    <div class="container">
+
+        <div class="content first-content">
+            <div class="first-colum">
+                <h2 class="titulo titulo-bemVindo">Bem Vindo de Volta</h2>
+                <p class="Descricao Descricao-Primeira">Para ser manter conectado conosco</p>
+                <p class="Descricao Descricao-Primeira">Faça o login com suas informações pessoais</p>
+                <button id="signin" class="btn btn-BemVindo">Entrar</button>
+            </div>
+            <div class="second-colum">
+                <h2 class="titulo titulo-Dois">Criar sua conta</h2>
+                <div class="Social-midia">
+                    <ul class="Lista-Social">
+                        <a class="link-social-media" href="#">
+                            <li class="Item-Social-Midia">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="Item-Social-Midia">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="Item-Social-Midia">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </li>
+                        </a>
+                    </ul>
+
+                </div>
+                <p class="Descrição Descricao-Segundo"> ou use seu e-mail para se cadastrar:</p>
+                <form class="from">
+                    <label class="label-input">
+                        <i class="fa-regular fa-user icon-modify"></i>
+                        <input id="InptCadastroNome"  placeholder="Nome">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa-sharp fa-regular fa-envelope icon-modify"></i>
+                        <input id="InptCadastroEmail"  placeholder="E-mail">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input id="InptCadastroSenha"  placeholder="Senha">
+                    </label>
+
+                    <button class="btn btn-Second" onclick="cadastrar()"> Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+        <div class="content second-content">
+            <div class="first-colum">
+                <h2 class="titulo titulo-bemVindo">Olá Amigo</h2>
+                <p class="Descricao Descricao-Primeira">Insira seus dados pessoais</p>
+                <p class="Descricao Descricao-Primeira">Comece a jornada conosco</p>
+                <button id="signup" class="btn btn-BemVindo" onclick="">Cadastre-se</button>
+
+            </div>
+            <div class="second-colum">
+                <h2 class="titulo titulo-Dois">Faça Seu Login</h2>
+                <div class="Social-midia">
+                    <ul class="Lista-Social">
+                        <a class="link-social-media" href="#">
+                            <li class="Item-Social-Midia">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="Item-Social-Midia">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="Item-Social-Midia">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </li>
+                        </a>
+                    </ul>
+
+                </div>
+                <p class="Descricao Descricao-Segundo"> ou use seu e-mail para entrar:</p>
+                <form class="from">
+                    <label class="label-input">
+                        <i class="fa-sharp fa-regular fa-envelope icon-modify"></i>
+                        <input id="logar_Email"  placeholder="E-mail">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input id="senha_Login" type="password" placeholder="Senha">
+                    </label>
+                    
+                    <button class="btn btn-Second" onclick="logar()" > Entrar</button>
+                    <a class="password" href="#">Esqueceu sua Senha</a>
+                </form>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="Login_Cadastro.js"></script>
+</body>
+
+</html>
