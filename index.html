@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="img/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -16,12 +17,11 @@
 </head>
 <body>
     
-        
-<!-- conteúdo cabeçalho -->
+    <!-- conteúdo cabeçalho -->
 
     <div class="container">
-
-        <header>  
+        
+        <header class="cabeçalho">  
             <div id="selecao-cabecalho">
                 <div id="selecao-esquerda">
                 </div>  
@@ -31,9 +31,20 @@
                     
                     <nav class="menu">
                         <ul class="menu-lista">
-                            <li class="menu-item"><a class="menu-link" href="#">Início</a></li>
+                            <li class="menu-item"><a class="menu-link" href="index.html">Início</a></li>
                             <li class="menu-item"><a class="menu-link" href="planos.html">Planos</a></li>
-                            <li class="menu-item"><a class="menu-link" href="#">Tipos de Reciclagem</a></li> 
+                            
+                            <li class="item-dropdown" id="dropdown">
+                                Tipos de Reciclagem<img src="img/seta.svg" id="seta"></a>
+                                <ul class="submenu">
+                                    <li class="item-dropdown"><a class="link-dropdown" href="metal.html"><b>Metal</b></a></li>
+                                    <li class="item-dropdown"><a class="link-dropdown" href="organico.html"><b>Orgânico</b></a></li>
+                                    <li class="item-dropdown"><a class="link-dropdown" href="papel.html"><b>Palpel</b></a></li>
+                                    <li class="item-dropdown"><a class="link-dropdown" href="plastico.html"><b>Plastico</b></a></li>
+                                    <li class="item-dropdown"><a class="link-dropdown" href="vidro.html"><b>Vidro</b></a></li> 
+                                    <li class="item-dropdown"><a class="link-dropdown" href="eletronicos.html"><b>Eletrônicos</b></a></li>   
+                                </ul>
+                            </li> 
                         </ul>
                     </nav>
                 </div>
@@ -45,10 +56,10 @@
                     <nav>
                         <ul class="menu-lista">
                             <div>
-                                <li class="menu-item"><a class="menu-link" href="#">Cadastre-se</a></li>
+                                <li class="menu-item"><a class="menu-link" href="login.html">Cadastre-se</a></li>
                             </div>
                             <div id="espacamento-login-direita">
-                                <li id="login-direita"><a id="menu-login" href="#">Login</a></li>
+                                <li id="login-direita"><a id="menu-login" href="login.html">Login</a></li>
                             </div>
                         </ul>
                     </nav>
@@ -60,14 +71,14 @@
             
             <div id="baixo-cabecalho">
                 <h1 id="titulo-cabecalho">Para condomínios <b>mais ecológicos</b></h1>
-                <p id="paragrafo-cabecalho">Uma solução para ajudar os condomínios a reduzirem o lixo produzido e aumentarem a conscientização sobre reciclagem</p>
+                <p id="paragrafo-cabecalho">Uma solução afim de auxiliar os condomínios a reduzir o lixo produzido e aumentar a conscientização sobre reciclagem</p>
                 
                 <div id="botoes">
                     <div id="espacamento-botoes">
-                        <button id="botao-experimente">Experimente</button>
+                        <button id="botao-experimente"><a id="link-btn-experimente" href="planos.html">Experimente</a></button>
                     </div>
                     <div id="espacamento-botoes">
-                        <button id="botao-saibamais">Saiba mais</button>
+                        <button id="botao-saibamais"><a id="link-btn-saibaMais" href="planos.html">Saiba mais</a></button>
                     </div>
                 </div>
             </div>
@@ -134,7 +145,6 @@
                     <div id="complementar-direita">
                         <h1 id="titulo-complementar">Novidades em breve</h1>
                         <p id="subtitulo-complementar">Estamos empolgados em anunciar que estamos desenvolvendo uma aplicação mobile exclusiva para os moradores do condomínio! Nosso objetivo é tornar o processo de reciclagem ainda mais fácil e divertido, transformando-o em uma experiência intuitiva e gamificada. Com a nossa futura aplicação, você poderá acompanhar o seu progresso na reciclagem, desbloquear conquistas e ganhar recompensas incríveis. Além disso, ofereceremos dicas úteis e informações sobre sustentabilidade para incentivar ainda mais a participação de todos. Estamos empenhados em promover um ambiente mais limpo e sustentável, e estamos ansiosos para compartilhar essa novidade com você em breve. Fique ligado para mais informações e atualizações sobre o lançamento da nossa aplicação mobile! </p>
-                        
                     </div>
                 </div>
             </aside>
@@ -182,7 +192,8 @@
                 </div>
                 
             </footer>
-            
     </div>
+    
 </body>
 </html>
+
