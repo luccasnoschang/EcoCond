@@ -61,12 +61,13 @@ body{
 }
 
 #logo{
+    margin-right: 10px;
     height: 70px;
     width: 80px;
 }
 
 .menu{
-    width: 300px;
+    width: 360px;
 }
 
 .menu-lista{
@@ -78,7 +79,7 @@ body{
     gap: 10px;
     text-decoration: none;
     color: white;
-    width: 270px;
+    width: 350px;
 }
 
 .menu-item {
@@ -96,9 +97,9 @@ body{
 .item-dropdown{
     cursor: pointer;
     list-style: none;
-    margin: 0;
+    margin-right: 0;
     padding: 0;
-    font-size:15.7px;
+    font-size:15px;
     text-decoration: none;
     color: white;
 }
@@ -117,6 +118,14 @@ body{
     border-radius: 0;
 }
 
+#dropdown{
+    width: 550px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size:15.7px;
+}
+
 .item-dropdown:hover .submenu{
     display: block;
     background-color: #1b4332;
@@ -124,7 +133,7 @@ body{
 }
 
 .link-dropdown{
-    font-size:18px;    
+    font-size:16px;    
 }
 
 .link-dropdown:hover{
@@ -272,6 +281,10 @@ nav li a{
     color: white;
 }
 
+#botao-experimente:active #link-btn-experimente{
+    color: white;
+}
+
 #botao-saibamais{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.0);
@@ -300,6 +313,10 @@ nav li a{
     padding: 12px;
     padding-left: 20px;
     padding-right:20px;
+}
+
+#botao-saibamais:active #link-btn-saibaMais{
+    color: #294925;
 }
 
 #link-btn-saibaMais{
