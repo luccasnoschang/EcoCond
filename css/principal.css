@@ -201,7 +201,7 @@ aside{
     position: absolute;
     width:1000px;
     height: 500px; 
-    object-position: -120px -420px;
+    object-position: -60px -420px;
     object-fit: cover;
 }
 
@@ -244,6 +244,7 @@ aside{
 #titulo-sobrenos{
     height: 45px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .image-gallery{
@@ -276,7 +277,8 @@ aside{
 }
   
 #nomeEquipe{
-    font-size: 30px;
+    font-size: 35px;
+    margin: 40px;
 }
   
 .linkedinFonte{
@@ -285,8 +287,6 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
-    object-position: 0px 0px;
-    transform: translate(0%, 50%);
 }
   
 .alteracaoLinkedin{
@@ -301,7 +301,7 @@ aside{
   
 .card {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     flex-direction: column;
     align-items: center;
     width: 200px;
@@ -314,10 +314,8 @@ aside{
 }
   
 .fonteNome{
-    display: flex;
-    justify-content: center;
-    object-position: 0px 0px;
-    transform: translate(0%, 50%);
+    font-weight: bold;
+    font-size: 18px;
 }
   
 .alteracaoNome{
@@ -325,11 +323,13 @@ aside{
     justify-content: center;
 }
   
+.espaçamento-saibaMais{
+    display: flex;
+    flex-direction: column;
+}
+
 .tamanhoImagem{
-    border-radius: 20px;
-    object-fit: cover;
-    object-position:0px 0px;
-    transform: translate(10%, 0%);
+    border-radius: 10px;
 }
 
 .divisão{
