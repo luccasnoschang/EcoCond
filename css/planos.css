@@ -62,6 +62,7 @@ body{
     border:0px solid;
     background:linear-gradient(#40916c,#2d6a4f);
     color:white;
+    cursor: pointer;
 }
 
 .produto-comprar:hover{
