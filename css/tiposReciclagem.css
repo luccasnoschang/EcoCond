@@ -1,0 +1,135 @@
+/* *{
+    border: 1px solid red;
+} */
+
+#container{
+    display: flex; 
+}
+
+body{
+    background-color: #d8f3dc;
+}
+
+#txtesquerda{
+    width: 50%;
+}
+
+.titulo {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragrafo {
+    margin-top: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#lista {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+/* plastico */
+
+.imgPlastico {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img2Plastico {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* metal */
+
+.imgMetal {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img2Metal {
+    width: 70%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+    height: 30%;
+}
+
+
+/* vidro */
+
+.imgVidro {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img2Vidro {
+    width: 90%;
+    margin-top: 7px;
+    padding: 10px;
+    justify-items:right;
+}
+
+
+/* papel */
+
+.imgPapel {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img2Papel {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* organico */
+
+.imgOrganico {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img2Organico {
+    width: 90%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* eletronico */
+
+.imgEletronico {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img2Eletronico {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+}
