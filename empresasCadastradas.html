@@ -19,6 +19,8 @@
 
         <h1>Lista das Empresas Cadastradas</h1>
 
+        <img class="logo" src="img/logoPreta.png" alt="">
+
         <div id="listar">
             <label>Atualizar lista de Empresas Cadastradas </label>
             <button onclick="Listar()">Atualizar</button><br><br>
@@ -27,12 +29,12 @@
         <div id="pesquisar">
             <label>Informe o nome da Empresa que deseja pesquisar: </label>
             <input id="pesquisarEmpresa">
-            <button onclick="Pesquisar()">PESQUISAR</button><br><br>
+            <button id="botaoPesquisar" onclick="Pesquisar()"><img class="lupa" src="img/lupa.png" alt=""></button><br><br>
         </div>
-        
+
         <div class="direita-baixo">
 
-        <h2>Empresas Cadastradas</h2>
+        <h2 id="empresas-cadastradas">Empresas Cadastradas</h2>
         
         <div class="espacamento">
 

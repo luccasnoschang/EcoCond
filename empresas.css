@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 html {
     height: 100%;
@@ -27,6 +27,29 @@ body {
     color: white;
     border: 0px solid;
 } */
+
+.lupa{
+    width: 15px;
+}
+
+#botaoPesquisar{
+    border: 0px solid;
+    background-color: rgb(226, 226, 226);
+    margin: -10px;
+    cursor: pointer;
+}
+
+.logo{
+    margin: 40px;
+    top:0;
+    right: 0;
+    position: absolute;
+    width: 70px;
+}
+
+#empresas-cadastradas{
+    margin-left: 20px;
+}
 
 #conominios{
     width: 400px;
