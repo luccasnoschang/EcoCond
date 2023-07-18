@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="empresas.css">
+    <title>Cadastrar Empresas</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="esquerda">
+
+            <div class="esquerda-cima">
+                <h1>Cadastre sua empresa</h1>
+            </div>
+
+            <div class="esquerda-baixo">
+
+
+                <label>Nome <input placeholder="Nome" id="inptNome"></label>
+                <label>CPF/CNPJ <input placeholder="CPF/CNPJ" id="inptCNPJ"></label>
+                <label>Email <input placeholder="Email" id="inptEmail"></label>
+                <label>Telefone <input placeholder="Telefone" id="inptPhone"></label>
+                <label>Endereço <input placeholder="Endereço" id="inptEndereco"></label>
+                <label>Tipo da empresa <select id="slct">
+                        <option value="Opção Inválida" required></option>
+                        <option value="Orgânico">Orgânico</option>
+                        <option value="Papel">Papel</option>
+                        <option value="Vidro">Vidro</option>
+                        <option value="Metal">Metal</option>
+                        <option value="Plástico">Plástico</option>
+                        <option value="Eletrônico">Eletrônico</option>
+                    </select>
+                </label>
+
+                <div>
+                    <button onclick="Cadastrar()">Cadastrar</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="empresas.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="empresas.css">
+    <title>Empresas Cadastradas</title>
+</head>
+
+<body onload="Listar()">
+
+        <div id="condominios">
+        </div>
+
+        <h1>Lista das Empresas Cadastradas</h1>
+
+        <div id="listar">
+            <label>Atualizar lista de Empresas Cadastradas </label>
+            <button onclick="Listar()">Atualizar</button><br><br>
+        </div>
+
+        <div id="pesquisar">
+            <label>Informe o nome da Empresa que deseja pesquisar: </label>
+            <input id="pesquisarEmpresa">
+            <button onclick="Pesquisar()">PESQUISAR</button><br><br>
+        </div>
+        
+        <div class="direita-baixo">
+
+        <h2>Empresas Cadastradas</h2>
+        
+        <div class="espacamento">
+
+            <label for="">Nome da empresa</label>
+            <label for="">Cnpj da empresa</label>
+            <label for="">Email da empresa</label>
+            <label for="">Telefone da empresa</label>
+            <label for="">Endereço da empresa</label>
+            <label for="">Tipo de empresa</label>
+
+        </div>
+
+            
+            <div id="List">
+            </div>
+            
+        </div>
+
+    <script src="empresas.js"></script>
+</body>
+
+</html>
