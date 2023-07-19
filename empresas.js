@@ -372,3 +372,21 @@ function Limpar() {
     document.getElementById("pesquisarEmpresa").focus()
 }
 
+// let gi = "Texto do objeto da Gi"
+// let texto = document.createTextNode(gi)
+// let valorNome = document.createElement('div')
+// valorNome.appendChild(texto)
+// let divNome = document.getElementById('divNomeEmpresa')
+// divNome.appendChild(valorNome)
+
+
+// let divNome = document.getElementById('divNomeEmpresa')
+
+// divNome.innerHTML += "Tenho vergonha de terminar"
+
+
+
+
+
+
+
