@@ -136,4 +136,34 @@ body {
 
 input{
     border-radius:5px;
+    border: 0px solid;
+}
+
+button{
+    margin-top:10px;
+    border: 1px solid;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+#pesquisarCondominio{
+    border-bottom: 2px solid #2d6a4f;
+    border-radius: 0;
+}
+
+#botao-condos{
+    margin: 0;
+    background-color: #2d6a4f;
+    color: white;
+    padding: 7px;
+    padding-left:15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+#botao-condos:hover{
+    opacity: 80%;
 }
