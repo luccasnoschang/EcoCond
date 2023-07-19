@@ -283,7 +283,7 @@ function Pesquisar() {
 
     // Cria uma variável ou flag para indicar que encontrou
     let encontrou = 0
-    let nomePesquisar = document.getElementById("pesquisarEmpresa")
+    let nomePesquisar = document.getElementById("pesquisarCondominio")
 
     // Realiza um loop do tamanho dos vetores
     for (i = 0; i < dadosListaCond.length; i++) {
