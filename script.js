@@ -74,8 +74,8 @@ function Listar() {
         for (i = 0; i < todosDadosCond.length; i++) {
 
 
-            let nomeCondominio = document.createTextNode(`Nome do Condomínio:`)
-            let cnpjCondominio = document.createTextNode(`CNPJ:`)
+            let nomeCondominio = document.createTextNode(`Condomínio: `)
+            let cnpjCondominio = document.createTextNode(`CNPJ: `)
             let emailCondominio = document.createTextNode(`Email: `)
             let telefoneCondominio = document.createTextNode(`Telefone: `)
             let enderecoCondominio = document.createTextNode(`Endereço: `)
