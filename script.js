@@ -40,6 +40,8 @@ function Cadastrar() {
     }
     alert("Condomínio cadastado com sucesso!")
 
+    window.location.href="empresas.html"
+
     limparDados()
 }
 
@@ -314,10 +316,6 @@ function Pesquisar() {
     Limpar()
 
 }
-
-
-
-
 
 function Excluir(condominioName) {
 

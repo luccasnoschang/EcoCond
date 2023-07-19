@@ -28,6 +28,24 @@ body {
     border: 0px solid;
 } */
 
+#botão-voltar{
+    padding:5px 15px 5px 15px;
+    background-color: #40916c;
+    border-radius: 15px;
+    border: 0px solid;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#botão-voltar:hover{
+    opacity: 80%;
+}
+
 #pesquisar{
     display: flex;
     justify-content: space-between;
