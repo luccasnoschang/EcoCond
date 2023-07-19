@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/empresas.css">
+    <title>Empresas Cadastradas</title>
+</head>
+
+<body onload="Listar()">
+
+        <div id="condominios">
+        </div>
+
+        <br>
+        <h1 id="titulo-empresas">EcoRecycle</h1>
+        <br>
+        <br>
+        <img class="logo" src="img/logoPreta.png" alt="">
+
+        <div class="posicionamento-pesquisar">
+            <div id="pesquisar">
+                <div id="posicionamento-lupa">
+                    <input placeholder="Informe o nome da Empresa que deseja pesquisar: " id="pesquisarEmpresa">
+                    <button id="botaoPesquisar" onclick="Pesquisar()"><img class="lupa" src="img/lupa.png" alt=""></button><br><br>
+                </div>
+            </div>
+        </div>
+        
+        <div class="direita-baixo">
+
+        <div class="espacamento">
+            <br><br>
+            <button class="btn-att" onclick="Listar()"><img id="img-reload" src="img/reload.png" alt=""></button>
+            <h2 id="empresas-cadastradas">Empresas Cadastradas</h2>
+        </div>
+
+            
+            <div id="List">
+            </div>
+            
+        </div>
+
+    <script src="empresas.js"></script>
+</body>
+
+</html>

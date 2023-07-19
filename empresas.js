@@ -81,12 +81,12 @@ function Listar() {
             // let enderecoEmpresa = document.createTextNode(`Endereço: ${todosDados[i].endereco}`)
             // let selectValorEmpresa = document.createTextNode(`Tipo da Empresa: ${todosDados[i].selectValor}`)
 
-            let nomeEmpresa = document.createTextNode(``)
-            let cnpjEmpresa = document.createTextNode(``)
-            let emailEmpresa = document.createTextNode(``)
-            let telefoneEmpresa = document.createTextNode(``)
-            let enderecoEmpresa = document.createTextNode(``)
-            let selectValorEmpresa = document.createTextNode(``)
+            let nomeEmpresa = document.createTextNode(`Nome da empresa`)
+            let cnpjEmpresa = document.createTextNode(`Cnpj da empresa`)
+            let emailEmpresa = document.createTextNode(`Email da empresa`)
+            let telefoneEmpresa = document.createTextNode(`Telefone da empresa`)
+            let enderecoEmpresa = document.createTextNode(`Endereço da empresa`)
+            let selectValorEmpresa = document.createTextNode(`Tipo de empresa`)
 
             let inptNomeEmpresa = document.createElement('input')
             let inptCNPJEmpresa = document.createElement('input')

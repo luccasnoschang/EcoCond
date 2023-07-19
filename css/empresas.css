@@ -28,14 +28,35 @@ body {
     border: 0px solid;
 } */
 
+#pesquisar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo-empresas{
+    text-align: center;
+    color: #40916c;
+    font-size: 40px;
+}
+
+#posicionamento-lupa{
+    position: absolute;
+    width: 38%;
+    height: 100%;
+}
+
 .lupa{
-    width: 15px;
+    width: 20px;
 }
 
 #botaoPesquisar{
+    position: absolute;
+    top: 21px;
+    right: 0px;
     border: 0px solid;
-    background-color: rgb(226, 226, 226);
-    margin: -10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
     cursor: pointer;
 }
 
@@ -45,6 +66,21 @@ body {
     right: 0;
     position: absolute;
     width: 70px;
+}
+
+.posicionamento-pesquisar{
+    height: 12%;
+}
+
+#pesquisarEmpresa{
+    padding:15px;
+    width: 100%;
+    border-bottom: 0px;
+    border-radius: 50px;
+}
+
+#pesquisarEmpresa::placeholder{
+    font-size: 17px;
 }
 
 #empresas-cadastradas{
@@ -59,18 +95,13 @@ body {
 
 #List{
     padding: 20px;
-    width: 100%;
+    width: 95%;
 }
 
 .Empresas{
     display: flex;
     height: 100px;
     width: 100%;
-}
-
-.Divs{
-    height: 60px;
-    padding: 0px 0px 10px 0px;
 }
 
 .btnExcluirEmpresa{
@@ -83,7 +114,6 @@ input{
     padding: 5px;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(29, 160, 88);
-
 }
 
 .container{
@@ -95,13 +125,6 @@ input{
     background-color: rgb(63, 167, 110);
     width: 80%;
     height: 100%;
-}
-
-.esquerda-cima {
-    width: 80%;
-    height: 15%;
-    display: flex;
-    justify-content: center;
 }
 
 .esquerda-baixo{
@@ -140,12 +163,33 @@ input{
 }
 
 .Divs{
+    width: 100%;
     margin: 5px;
 }
 
+.btn-att{
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    margin-right:40px;
+    padding:5px;
+    border:0px solid;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn-att:hover{
+    opacity: 70%;
+}
+
+#img-reload{
+    width: 40px;
+}
+
 .espacamento{
-    height: 40px;
+    margin-top: 20px;
+    height: 70px;
+    margin-left: 10px;
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
 }

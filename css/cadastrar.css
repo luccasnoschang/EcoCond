@@ -1,0 +1,103 @@
+*{
+    border: 1px solid red;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;   
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    width: 50%;
+}
+
+.esquerda-cima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    width: 100%;
+    height: 30%;
+}
+
+#titulo-cadastro{
+    font-size: 40px;
+    width: 520px;
+}
+
+.texto-cadastro{
+    width: 520px;
+}
+
+.esquerda-baixo{
+    gap: 20px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-cancelar{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+}
+
+#botao-cadastrar{
+    padding: 10px;
+    border-radius:40px;
+    font-size: 15px;
+    background-color:#40916c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#botao-cadastrar:hover{
+    opacity: 80%;
+}
+
+input{
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    font-size:20px;
+}
+
+#div-imagem-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#imagem-cadastro{
+    width: 600px;
+}
+
+strong{
+    color: #40916c;
+}

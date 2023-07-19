@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/condominio.css">
+    <title>Condomínios Cadastrados</title>
+</head>
+
+<body onload="Listar()">
+
+    <div class="direita">
+
+        <h1>Lista dos Condomínios Cadastrados</h1>
+
+        <div id="listar">
+            <label>Atualizar lista de Condominios Cadastrados </label>
+            <button onclick="Listar()">Atualizar</button><br><br>
+        </div>
+
+        <div id="pesquisar">
+            <label>Informe o nome da Empresa que deseja pesquisar: </label>
+            <input id="pesquisarCondominio">
+            <button onclick="Pesquisar()">PESQUISAR</button><br><br>
+        </div>
+
+        
+        <div class="direita-baixo">
+            
+            <div id="direita-esquerda"></div>
+            
+            <div id="Space">
+                
+                <h1></h1>
+                
+            </div>
+            
+            <div id="List">
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

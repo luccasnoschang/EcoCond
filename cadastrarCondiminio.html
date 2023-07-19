@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastrar.css">
+    <title>Cadastrar Condomínios</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="esquerda">
+
+            <div class="esquerda-cima">
+                <h1 id="titulo-cadastro">Vamos começar</h1>
+                <p class="texto-cadastro">Precisamos de algumas informações para que possamos fazer o <strong>cadastro do seu condomínio</strong>.</p>
+            </div>
+
+            <div class="esquerda-baixo">
+
+                <input placeholder="Nome" id="inptNomeCond"></label>
+                <input placeholder="CPF/CNPJ" id="inptCNPJCond"></label>
+                <input placeholder="Email" id="inptEmailCond"></label>
+                <input placeholder="Telefone" id="inptPhoneCond"></label>
+                <input placeholder="Endereço" id="inptEnderecoCond"></label>
+                <input placeholder="Senha" id="inptSenhaCond"></label>
+                
+                <div>
+                    <a class="link-cancelar" href="index.html">Cancelar</a>
+                    <button id="botao-cadastrar" onclick="Cadastrar()">Cadastrar</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="div-imagem-cadastro">
+            <img id="imagem-cadastro" src="img/fundoCabecalho.png" alt="">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

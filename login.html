@@ -9,7 +9,7 @@
     <link rel="icon" href="img/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="login.css">
     <script src="https://kit.fontawesome.com/b20298a8d7.js" crossorigin="anonymous"></script>
     <link rel="icon" href="Logo.png">
 
@@ -25,13 +25,13 @@
 
         <div class="content first-content">
             <div class="first-colum">
-                <h2 class="titulo titulo-bemVindo">Bem Vindo de Volta</h2>
-                <p class="Descricao Descricao-Primeira">Para ser manter conectado conosco</p>
-                <p class="Descricao Descricao-Primeira">Faça o login com suas informações pessoais</p>
+                <h2 class="titulo titulo-bemVindo">Área Condomínio</h2>
+                <p class="Descricao Descricao-Primeira">Faça seu Login</p>
+                <!-- <p class="Descricao Descricao-Primeira">Faça o login com suas informações pessoais</p> -->
                 <button id="signin" class="btn btn-BemVindo">Entrar</button>
             </div>
             <div class="second-colum">
-                <h2 class="titulo titulo-Dois">Criar sua conta</h2>
+                <h2 class="titulo titulo-Dois">Login Admin</h2>
                 <div class="Social-midia">
                     <ul class="Lista-Social">
                         <a class="link-social-media" href="#">
@@ -52,35 +52,30 @@
                     </ul>
 
                 </div>
-                <p class="Descrição Descricao-Segundo"> ou use seu e-mail para se cadastrar:</p>
-                <form class="from">
-                    <label class="label-input">
-                        <i class="fa-regular fa-user icon-modify"></i>
-                        <input id="InptCadastroNome"  placeholder="Nome">
-                    </label>
+                <div class="from">
                     <label class="label-input">
                         <i class="fa-sharp fa-regular fa-envelope icon-modify"></i>
-                        <input id="InptCadastroEmail"  placeholder="E-mail">
+                        <input id="InptloginAdmin"  placeholder="E-mail Administrador">
                     </label>
                     <label class="label-input">
                         <i class="fa-solid fa-lock icon-modify"></i>
-                        <input id="InptCadastroSenha"  placeholder="Senha">
+                        <input id="InptsenhaAdmin"  type="password" placeholder="Senha Administrador">
                     </label>
 
-                    <button class="btn btn-Second" onclick="cadastrar()"> Inscrever-se</button>
-                </form>
+                    <button class="btn btn-Second" onclick="Logar()">ENTRAR</button>
+                    <a class="password" href="#">Esqueceu sua Senha</a>
+                </div>
             </div>
         </div>
         <div class="content second-content">
             <div class="first-colum">
-                <h2 class="titulo titulo-bemVindo">Olá Amigo</h2>
-                <p class="Descricao Descricao-Primeira">Insira seus dados pessoais</p>
-                <p class="Descricao Descricao-Primeira">Comece a jornada conosco</p>
-                <button id="signup" class="btn btn-BemVindo" onclick="">Cadastre-se</button>
+                <h2 class="titulo titulo-bemVindo">Olá Administrador</h2>
+                <p class="Descricao Descricao-Primeira">Faça seu Login</p>
+                <button id="signup" class="btn btn-BemVindo" onclick="">Área Admin</button>
 
             </div>
             <div class="second-colum">
-                <h2 class="titulo titulo-Dois">Faça Seu Login</h2>
+                <h2 class="titulo titulo-Dois">Login Condomínio</h2>
                 <div class="Social-midia">
                     <ul class="Lista-Social">
                         <a class="link-social-media" href="#">
@@ -101,8 +96,8 @@
                     </ul>
 
                 </div>
-                <p class="Descricao Descricao-Segundo"> ou use seu e-mail para entrar:</p>
-                <form class="from">
+
+                <div class="from">
                     <label class="label-input">
                         <i class="fa-sharp fa-regular fa-envelope icon-modify"></i>
                         <input id="logar_Email"  placeholder="E-mail">
@@ -111,17 +106,17 @@
                         <i class="fa-solid fa-lock icon-modify"></i>
                         <input id="senha_Login" type="password" placeholder="Senha">
                     </label>
-                    
-                    <button class="btn btn-Second" onclick="logar()" > Entrar</button>
-                    <a class="password" href="#">Esqueceu sua Senha</a>
-                </form>
+
+                    <button class="btn btn-Second" onclick="Usuarios()">ENTRAR</button>
+                    <a class="password" href="">Esqueceu sua Senha</a>
+                </div>
 
 
             </div>
 
         </div>
     </div>
-    <script src="Login_Cadastro.js"></script>
+    <script src="login.js"></script>
 </body>
 
 </html>
