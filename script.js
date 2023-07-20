@@ -40,7 +40,7 @@ function Cadastrar() {
     }
     alert("Condomínio cadastado com sucesso!")
 
-    window.location.href="empresas.html"
+    window.location.href="login.html"
 
     limparDados()
 }
