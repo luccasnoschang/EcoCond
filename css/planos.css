@@ -19,7 +19,7 @@ body{
 	box-sizing: border-box;
 	border-radius: 20px 20px 20px 20px;
 	background: #ffffff;
-    box-shadow: 3px 3px 25px #908f8f;
+    box-shadow: 3px 3px 10px #908f8f;
 }
 
 .produtos h2 {
