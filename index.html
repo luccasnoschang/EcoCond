@@ -233,19 +233,32 @@
                 
                 <div id="rodape-meio-meio">
                     <p class="titulo-rodape">Nosso produto</p>
-                    <a class="rodape" href="">Planos</a>
-                    <a class="rodape" href="">Apresentação</a>
-                    <a class="rodape" href="">Pitch</a>
+                    <a class="rodape" href="planos.html">Planos</a>
+                    <a class="rodape" href="https://pt.slideshare.net/Luccas6/ecocond-1pdf">Apresentação</a>
+                    <a class="rodape" href="https://youtu.be/nw9S7pJ_DxQ">Pitch</a>
                 </div>
                     
                 <div id="rodape-meio-direita">
                     <p class="titulo-rodape">Conecte-se</p>
-                    <a class="rodape" href="">Contato</a>
-                    <a class="rodape" href="">Sobre nós</a>
-                    <a class="rodape" href="">Linkedin</a>
+                    <a class="rodape" href="mailto:Luccas.7noschang@gmail.com">Contato</a>
+                    <a class="rodape" href= "">Sobre nós</a>
+                    <a id="redirecionarLink" class="rodape" href="javascript:void(0);" target="_blank">Linkedin</a>
                 </div>
-            
-                
+
+                <script>
+                document.getElementById('redirecionarLink').addEventListener('click', function() {
+                var links = ['https://www.linkedin.com/in/luccas-noschang-95173220b/', 'https://www.linkedin.com/in/giovana-chan-403ba5239/', 'https://www.linkedin.com/in/vinicios-ferreira-dos-santos-252737183/'];
+                for (var i = 0; i < links.length; i++) {
+                    var link = document.createElement('a');
+                    link.href = links[i];
+                    link.target = '_blank';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    }
+                });
+                </script>
+
                 <div id="redes-sociais">
                     <div></div>
                     <a href=""><img id="linkedin" src="img/linkedin.png" alt="Linkedin"></a>
